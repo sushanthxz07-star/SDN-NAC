@@ -1,0 +1,5 @@
+# Python 3.8+ standard library only for the application and controller.
+# Graphs:
+matplotlib>=3.3
+# System packages (installed by scripts/setup.sh): mininet, openvswitch-switch, ethtool
+# Controller: POX  (git clone https://github.com/noxrepo/pox ~/pox)

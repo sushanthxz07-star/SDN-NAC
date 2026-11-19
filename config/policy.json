@@ -1,0 +1,29 @@
+{
+  "_comment": "Access-control policy. Roles map to the protected services a user of that role may reach once authenticated.",
+  "session_ttl_seconds": 60,
+  "services": {
+    "web": {"ip": "10.0.0.201", "port": 8080, "desc": "Campus web portal"},
+    "db":  {"ip": "10.0.0.202", "port": 9090, "desc": "Grades database"}
+  },
+  "roles": {
+    "student": ["web"],
+    "faculty": ["web", "db"],
+    "admin":   ["web", "db"]
+  },
+  "admin_roles": ["admin"],
+  "bruteforce": {
+    "max_failures": 5,
+    "window_seconds": 60,
+    "block_seconds": 30
+  },
+  "scan_detection": {
+    "max_denied_flows": 8,
+    "window_seconds": 10,
+    "block_seconds": 30
+  },
+  "static_acl": {
+    "_comment": "Used ONLY by the baseline 'static' controller mode: fixed IP-based allow-list, no authentication.",
+    "10.0.0.1": ["web"],
+    "10.0.0.2": ["web", "db"]
+  }
+}

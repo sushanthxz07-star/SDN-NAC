@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "date": "2026-11-18 17:05:06",
+    "bw_mbps": 20,
+    "clients": 20,
+    "datapath": "kernel",
+    "trials": 20
+  },
+  "open": {
+    "setup_ms": {
+      "n": 20,
+      "mean": 12.27,
+      "median": 9.46,
+      "stdev": 10.7,
+      "p95": 57.26,
+      "min": 8.54,
+      "max": 57.26
+    },
+    "setup_raw": [
+      14.06,
+      10.5,
+      8.54,
+      8.78,
+      8.62,
+      9.99,
+      9.48,
+      8.83,
+      8.88,
+      8.61,
+      9.3,
+      10.29,
+      11.1,
+      13.85,
+      57.26,
+      8.71,
+      9.08,
+      10.17,
+      9.43,
+      9.87
+    ],
+    "throughput_mbps": {
+      "n": 3,
+      "mean": 19.13,
+      "median": 19.14,
+      "stdev": 0.01,
+      "p95": 19.14,
+      "min": 19.12,
+      "max": 19.14
+    },
+    "throughput_raw": [
+      19.14,
+      19.12,
+      19.14
+    ],
+    "packet_in_per_conn": 14.75,
+    "revocation_logout": {
+      "latency_ms": {
+        "n": 0
+      },
+      "raw": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "cut_count": 0,
+      "trials": 5
+    },
+    "security": {
+      "Unauthenticated host -> web": false,
+      "Student -> grades DB": false,
+      "No login on an authorised PC -> web": false,
+      "Access after logout": false,
+      "Stolen token used from another host": false,
+      "Brute-force attacker isolated (network level)": false,
+      "Port scanner isolated": false
+    }
+  },
+  "static": {
+    "setup_ms": {
+      "n": 20,
+      "mean": 12.89,
+      "median": 9.55,
+      "stdev": 10.53,
+      "p95": 56.6,
+      "min": 8.4,
+      "max": 56.6
+    },
+    "setup_raw": [
+      12.94,
+      9.48,
+      8.64,
+      8.4,
+      9.04,
+      8.57,
+      9.24,
+      9.63,
+      16.52,
+      9.51,
+      14.49,
+      10.99,
+      10.45,
+      14.05,
+      56.6,
+      11.93,
+      9.37,
+      9.46,
+      8.89,
+      9.6
+    ],
+    "throughput_mbps": {
+      "n": 3,
+      "mean": 19.15,
+      "median": 19.17,
+      "stdev": 0.03,
+      "p95": 19.17,
+      "min": 19.12,
+      "max": 19.17
+    },
+    "throughput_raw": [
+      19.17,
+      19.17,
+      19.12
+    ],
+    "packet_in_per_conn": 15.3,
+    "revocation_logout": {
+      "latency_ms": {
+        "n": 0
+      },
+      "raw": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "cut_count": 0,
+      "trials": 5
+    },
+    "security": {
+      "Unauthenticated host -> web": true,
+      "Student -> grades DB": false,
+      "No login on an authorised PC -> web": false,
+      "Access after logout": false,
+      "Stolen token used from another host": true,
+      "Brute-force attacker isolated (network level)": false,
+      "Port scanner isolated": false
+    }
+  },
+  "nac": {
+    "setup_ms": {
+      "n": 20,
+      "mean": 2.68,
+      "median": 2.2,
+      "stdev": 1.72,
+      "p95": 9.62,
+      "min": 1.6,
+      "max": 9.62
+    },
+    "setup_raw": [
+      9.62,
+      2.29,
+      2.76,
+      1.86,
+      2.02,
+      2.68,
+      3.03,
+      2.84,
+      2.15,
+      1.94,
+      2.86,
+      2.73,
+      1.71,
+      1.76,
+      1.6,
+      1.83,
+      1.76,
+      3.71,
+      2.25,
+      2.12
+    ],
+    "throughput_mbps": {
+      "n": 3,
+      "mean": 19.18,
+      "median": 19.19,
+      "stdev": 0.01,
+      "p95": 19.19,
+      "min": 19.17,
+      "max": 19.19
+    },
+    "throughput_raw": [
+      19.17,
+      19.19,
+      19.19
+    ],
+    "packet_in_per_conn": 6.9,
+    "revocation_logout": {
+      "latency_ms": {
+        "n": 5,
+        "mean": 85.94,
+        "median": 81.4,
+        "stdev": 9.52,
+        "p95": 98.8,
+        "min": 76.6,
+        "max": 98.8
+      },
+      "raw": [
+        76.6,
+        81.4,
+        98.8,
+        79.8,
+        93.1
+      ],
+      "cut_count": 5,
+      "trials": 5
+    },
+    "revocation_admin": {
+      "latency_ms": {
+        "n": 5,
+        "mean": 86.26,
+        "median": 82.3,
+        "stdev": 10.31,
+        "p95": 104.5,
+        "min": 80.0,
+        "max": 104.5
+      },
+      "raw": [
+        104.5,
+        83.9,
+        80.0,
+        82.3,
+        80.6
+      ],
+      "cut_count": 5,
+      "trials": 5
+    },
+    "login_scaling": {
+      "1": {
+        "login_ms": {
+          "n": 3,
+          "mean": 14.22,
+          "median": 14.13,
+          "stdev": 0.6,
+          "p95": 14.86,
+          "min": 13.67,
+          "max": 14.86
+        },
+        "failures": 0,
+        "logins_per_s": 12.1
+      },
+      "5": {
+        "login_ms": {
+          "n": 15,
+          "mean": 46.06,
+          "median": 25.64,
+          "stdev": 30.58,
+          "p95": 93.23,
+          "min": 18.05,
+          "max": 93.23
+        },
+        "failures": 0,
+        "logins_per_s": 33.6
+      },
+      "10": {
+        "login_ms": {
+          "n": 30,
+          "mean": 93.2,
+          "median": 92.03,
+          "stdev": 50.84,
+          "p95": 171.38,
+          "min": 19.31,
+          "max": 174.31
+        },
+        "failures": 0,
+        "logins_per_s": 37.5
+      },
+      "20": {
+        "login_ms": {
+          "n": 60,
+          "mean": 122.76,
+          "median": 117.87,
+          "stdev": 48.59,
+          "p95": 194.69,
+          "min": 40.37,
+          "max": 205.86
+        },
+        "failures": 0,
+        "logins_per_s": 50.6
+      }
+    },
+    "grant_rpc_ms": {
+      "n": 124,
+      "mean": 16.93,
+      "median": 9.8,
+      "stdev": 17.04,
+      "p95": 49.5,
+      "min": 1.4,
+      "max": 58.0
+    },
+    "block_times": {
+      "bruteforce_attack_to_block_ms": 167.6,
+      "bruteforce_detect_to_rule_ms": 1.0,
+      "portscan_start_to_block_ms": 2458.0
+    },
+    "security": {
+      "Unauthenticated host -> web": true,
+      "Student -> grades DB": true,
+      "No login on an authorised PC -> web": true,
+      "Access after logout": true,
+      "Stolen token used from another host": true,
+      "Brute-force attacker isolated (network level)": true,
+      "Port scanner isolated": true
+    }
+  }
+}

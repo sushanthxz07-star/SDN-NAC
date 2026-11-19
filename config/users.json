@@ -1,0 +1,240 @@
+{
+ "alice": {
+  "role": "student",
+  "salt": "c586f1c25ccfcd0ed12616b89711389a",
+  "iters": 20000,
+  "stored_key": "f3fc98249686249c2e9217ff64e410002c6e9a4d102828f6d5d8c1e01eaded68",
+  "server_key": "ccffce79c3426b7f73d375b7518b2dfc2a27015223d3e774ef43dbf50cc1b632"
+ },
+ "carol": {
+  "role": "student",
+  "salt": "7753a04ef24b4bb72b9c048c119fb64d",
+  "iters": 20000,
+  "stored_key": "6535957c9db3377f7424a41043fe4fdc1c8f75982efd4c51b0854a5ad75f2a30",
+  "server_key": "b15c98d3fa0635f7689fa18e454779c6a7fcb6b6663345f09b02a12faf540473"
+ },
+ "bob": {
+  "role": "faculty",
+  "salt": "624c0fd72bb222a980b3f50e25d33db7",
+  "iters": 20000,
+  "stored_key": "2b2111df7c2e82de9343349886e30364afe10f8ab6050c412b81f1f84a143749",
+  "server_key": "00ac455eee417ff95169a74bfa44d81b291cd18c68750133eef6ea8c6d887fcb"
+ },
+ "admin": {
+  "role": "admin",
+  "salt": "960b311fdd07d4336f9fef0050a08ced",
+  "iters": 20000,
+  "stored_key": "22813163dd3fb3bb004593bbcd0d1a6035f1d5c7db867f0a39a0df151213492b",
+  "server_key": "8331216ca3057b25bf9edc353d8eec592322bd4723e093853830f751dd6dff7e"
+ },
+ "user01": {
+  "role": "student",
+  "salt": "e17d69716288436af08fb420d203c2f4",
+  "iters": 20000,
+  "stored_key": "b8dd369e885d64965a041947602da5eff0d603f0af2ca6382a2ce5ee298e26e7",
+  "server_key": "88cf28f38ef5566d765a8bd071e8b777deed0381b1c893a0db90144cb2055347"
+ },
+ "user02": {
+  "role": "student",
+  "salt": "2664ad5e50378954c9a7ef5c2ef6e23e",
+  "iters": 20000,
+  "stored_key": "8cc7213fec3c1f3a4e3d00c3591a5b2844c6a53ff38ef9ebf1da316a307b7aea",
+  "server_key": "84feb05accdebd7ed3fba04028cc82bbc112be195f2ac5a40d1d77de6a69c4de"
+ },
+ "user03": {
+  "role": "student",
+  "salt": "0982cc8ee925f104506f6e18aa49d2cd",
+  "iters": 20000,
+  "stored_key": "5f0ffaefc23007eb60b672ad36bef78097c39e4705e6ee3b426a320f459c23f3",
+  "server_key": "f8e928454836da3264e5f0bfa13da399980f5881a64f1608ebc9ced2d37b472e"
+ },
+ "user04": {
+  "role": "student",
+  "salt": "dfb9d0e5148028503f6cb18d54aca5eb",
+  "iters": 20000,
+  "stored_key": "e0f1d1d38e5bea096dc2059aefaa6c7c6a064705a4f9b49404e0f29cc8c4bc65",
+  "server_key": "a6362d885aa09e00b12960a3f003b4430a7b64ad109d95a5e4b7938dde06c83e"
+ },
+ "user05": {
+  "role": "student",
+  "salt": "d36f7d5bc8e0ddf24959da35062f4711",
+  "iters": 20000,
+  "stored_key": "37e53575665c7ee206c6913fcd619df77390b6496a3b80a9584715f5e264003c",
+  "server_key": "78803fe13bba48e943527650f56b03edde88eceea390dd69894529c2189d3347"
+ },
+ "user06": {
+  "role": "student",
+  "salt": "0ff2f92cbc67bbeb4f31f332c6731193",
+  "iters": 20000,
+  "stored_key": "6aefde2ae474ae66d253fe0e72ac586a17544c8296111effd485c02775d7ca5a",
+  "server_key": "aed93caac86e0bc3e9fde4de434e774cc337b86e1a356794286dec0541fa5d1a"
+ },
+ "user07": {
+  "role": "student",
+  "salt": "9378b22e5ec42bf8b3bf35fa434aeb66",
+  "iters": 20000,
+  "stored_key": "e486a5234807cfc048358368c984d8d004bb6af6f9e4fde9416ca970f8950fd1",
+  "server_key": "fe49b7092471091e010fe55b3b7a0c74d4715de880eff50beab9f9c71f47dbbc"
+ },
+ "user08": {
+  "role": "student",
+  "salt": "7a2cbec8d5634f6adf1afdbcef3c4d1c",
+  "iters": 20000,
+  "stored_key": "277d4c4ab708b34cf18d4ea0fbf9e781bc0b90b394f7b6b57aa56da5c0376d41",
+  "server_key": "3a7ccae13367b36d219335acaff4b2a4e52a6e0cd6fcc2c8032aeb41bac48139"
+ },
+ "user09": {
+  "role": "student",
+  "salt": "8b8ffb18265ea2c154972c8998af0f20",
+  "iters": 20000,
+  "stored_key": "160031c7f5fd9e934cc5d80b424f1772ff3e6d0e24f11f9e56a8a80921de1499",
+  "server_key": "e2155e89855f55c1b2a2955cc0e96b235f2e2447b67c15571269d40da59b554a"
+ },
+ "user10": {
+  "role": "student",
+  "salt": "7a97a914fb540fc8ae6e67a5e0b7fd9d",
+  "iters": 20000,
+  "stored_key": "d59fd2de6cdb2169630e6a1e4825e5d8de08477e031ef06ab5999797d198f900",
+  "server_key": "28f654f201ab78d447d814e5ce29dbbb233c3cc6d4920578dc910f364cee1fcd"
+ },
+ "user11": {
+  "role": "student",
+  "salt": "3e21c8456f99018488b175ab4c74d60a",
+  "iters": 20000,
+  "stored_key": "cb0f8dc39482bb183aa272ef3b42e7ff5f80bc73486fa0e19f3703f38a227b87",
+  "server_key": "a004288174b3f25c1617418409cb7dd9f017e651378a990b2fab6dd73f6dbdfd"
+ },
+ "user12": {
+  "role": "student",
+  "salt": "9d464289805e12cfb0f9f15d6623ad24",
+  "iters": 20000,
+  "stored_key": "5f69121d4d871ad2e6bd2237f35d8ba54144c54178dcefd66f0ecc7530916c90",
+  "server_key": "18459b434f69d6888de3ee574b9929a087e4934c50c67039ce21591c1933a098"
+ },
+ "user13": {
+  "role": "student",
+  "salt": "db54ff65ff5e4b89e2497daf086e903e",
+  "iters": 20000,
+  "stored_key": "6d222193033aff529659adff367ebdcf3ad8e9a63895002b2238b575738678d7",
+  "server_key": "242bf4ebb4c764b5aa388ff779361ed8075beb577621ea7f21ee21b9b6c86e21"
+ },
+ "user14": {
+  "role": "student",
+  "salt": "db7e5a6a0892905cf7c1696b11132213",
+  "iters": 20000,
+  "stored_key": "3af592b47d12503316888cbe3756eadb45663647e10f0df0592610cdf4cdcce1",
+  "server_key": "56889637c3b0e93238faadc727a25cd87f256a1517272852a3bea01af24bf49e"
+ },
+ "user15": {
+  "role": "student",
+  "salt": "17c90d9ad638f1c63188d3089549a6e6",
+  "iters": 20000,
+  "stored_key": "f3911f79d9d476900ee46cebf5a73bbee4f9f69540ae167762e4d858eb1b5082",
+  "server_key": "2dea788a5b5520e7bbc36a5c39b0c2b3e7b5f2412a1f36f919b2fcd06ccb1eca"
+ },
+ "user16": {
+  "role": "student",
+  "salt": "a0554c3fc9af7ad5e42a62f482b87d0e",
+  "iters": 20000,
+  "stored_key": "5c82309a88c5d31fa2d4781c10315be9cdf2f172e6ed8f4ae50d74d9a20b331f",
+  "server_key": "131fc9b7c8a32139866eb65ed53da170cc35f8f45c6b5c8375665b97ee7aa292"
+ },
+ "user17": {
+  "role": "student",
+  "salt": "1f2c2e9d89be1f0f31d0c39c006beed0",
+  "iters": 20000,
+  "stored_key": "cba132aab42b8733d3b1e14b76c4ecc1d1bfc033652990be8826076298830c06",
+  "server_key": "a4b484553586f498cc1ca0ec4eeb633db20cf724407f8ebb1e722adf72fba368"
+ },
+ "user18": {
+  "role": "student",
+  "salt": "1ca5bfdaf09318fde728a4610a0df5dc",
+  "iters": 20000,
+  "stored_key": "18d89b0f017a06855d64bc7ca3654ad90edb7cb484ccf77fbfe865c1bd1849f4",
+  "server_key": "e539edbcad12fbb395642b2843dbf422944ec7cc5791f67b2cb21fca652c7d39"
+ },
+ "user19": {
+  "role": "student",
+  "salt": "38162eae7888ec51aa2d9d60d2cb435f",
+  "iters": 20000,
+  "stored_key": "bd1108f91db9604fef6f197d80144a72ebed4cfd33dec9f9df7695b95aa5c929",
+  "server_key": "670fbb3c4f22b5c0e20c811b3efc470f368e44a08cfe5256dabc036c43bb1bee"
+ },
+ "user20": {
+  "role": "student",
+  "salt": "2ba9dae42032a4b218798594f13a0942",
+  "iters": 20000,
+  "stored_key": "d7d6f10b0427af1ba170e7457ea02659aea45b2eee5044325ac58cde2a6b5344",
+  "server_key": "07c3b01c0518257ae14050366dea1183d91bb56c8bc9a6b45d14628f58627ff5"
+ },
+ "user21": {
+  "role": "student",
+  "salt": "a342461803f448344d2866f0998d282f",
+  "iters": 20000,
+  "stored_key": "5ecac253251ae62c2f267a9f8155bd9085050aa8bbbb50be6257778548d25cd6",
+  "server_key": "8a3c33aeaa147c1b39c8a97ec374e31f4e41803011710ebca1970818fbc1dafe"
+ },
+ "user22": {
+  "role": "student",
+  "salt": "a91542a136f30795224071371686df7f",
+  "iters": 20000,
+  "stored_key": "1fc4aea854a8605265250cbe91fa2a55d1057bd639c4433080de5aa69e933ccc",
+  "server_key": "dec0e85b9d3eb99ed466f529bc69d52f1be60dc754313249d7cf74aa583209d9"
+ },
+ "user23": {
+  "role": "student",
+  "salt": "4ddb143239fe0806800b7764fec90a03",
+  "iters": 20000,
+  "stored_key": "a72a9528ae018aee1d316d2aa22f6683f734e06a0bae221ccb2f345ea2e77aea",
+  "server_key": "41caa878fc612232b761216d528f873e2dde9430f3d2e07f09087bcf52890244"
+ },
+ "user24": {
+  "role": "student",
+  "salt": "9cd62816f885279c201b4c285a9f0b60",
+  "iters": 20000,
+  "stored_key": "c4335d1e77f533911f879cc8fdcf39ad384df5f7e11aa68d52f3ac12c7cf2f78",
+  "server_key": "4a78a71d179f1af059916ae35e281c9485b4eb49e520d4f1d6dd9adc4ecd3ccb"
+ },
+ "user25": {
+  "role": "student",
+  "salt": "df5dbba86acf057d2fd4159c8ed8eb66",
+  "iters": 20000,
+  "stored_key": "762a77c94ba795abd6b7034dd1169314bd65b54d18585a5dce754d3a55bc3c52",
+  "server_key": "fe537c05545c979b3c8765e4608b77ef2ab809292dc6d348ed13dc43522bca7a"
+ },
+ "user26": {
+  "role": "student",
+  "salt": "f105e38ea533e15a26f8d40a80c9a8a2",
+  "iters": 20000,
+  "stored_key": "b82e1c253c7a460115c0c587c029f3bc5843e2dd98411551c0500b82c9011511",
+  "server_key": "7ae81ce0d0a4e810c8a92afc86f779186c0ad5b716c919261f60049f87b7231f"
+ },
+ "user27": {
+  "role": "student",
+  "salt": "a112ea18a667579f1bc3744eebf6bdfd",
+  "iters": 20000,
+  "stored_key": "4b1b547304b33de77bc906dd89a45fc8b3316456c67acecb043db133417c8577",
+  "server_key": "95685167335f9dca32f06bba23bc3c80ef11d375e08c681715d845f15842579b"
+ },
+ "user28": {
+  "role": "student",
+  "salt": "307439c67fbaee1fb6cc3447505567f3",
+  "iters": 20000,
+  "stored_key": "c1edc39fd99f41a91e8fa8d76e42b93f41f8c3c155046db058bb27a53a2a7a7a",
+  "server_key": "58af865cf4f5e0f373b72066034f58e6708ca7de64be13d6ec59da36b1648984"
+ },
+ "user29": {
+  "role": "student",
+  "salt": "5e1bf5c10b92cb996f7d7bd05f14a8ed",
+  "iters": 20000,
+  "stored_key": "a29e3072bd2b0fffd1052ce56650582e8c9003abd44904e40b8c4fe38ba2e2af",
+  "server_key": "b52bf4457702fdb7da815c5705a6649e903bf6ef6d9f01158991e2f1b9061685"
+ },
+ "user30": {
+  "role": "student",
+  "salt": "99ecb43b38c28e5307e7ad8564194264",
+  "iters": 20000,
+  "stored_key": "66c8fdf58c843086138d8fe4499f25f3e22642faab0008a5b46edf179641e2c5",
+  "server_key": "09daa2d8068b6f5de387a301ceab411225a0e4acf1a66a6d9dd904b2f30e04d8"
+ }
+}
